@@ -221,7 +221,7 @@ Parameters:
     Description: The Amazon EC2 instance type for the first Active Directory instance.
     Type: String
   ADServer1NetBIOSName:
-    AllowedPattern: '[a-zA-Z0-9]+'
+    #AllowedPattern: '[a-zA-Z0-9]+'
     Default: DC1
     Description: The NetBIOS name of the first Active Directory server (up to 15 characters).
     MaxLength: '15'
@@ -243,7 +243,7 @@ Parameters:
     Description: The Amazon EC2 instance type for the second Active Directory instance.
     Type: String
   ADServer2NetBIOSName:
-    AllowedPattern: '[a-zA-Z0-9]+'
+    #AllowedPattern: '[a-zA-Z0-9]+'
     Default: DC2
     Description: The NetBIOS name of the second Active Directory server (up to 15 characters).
     MaxLength: '15'
